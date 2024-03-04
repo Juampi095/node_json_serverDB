@@ -1,0 +1,21 @@
+{
+  "name": "backend-practica",
+  "version": "1.0.0",
+  "description": "Proyecto de practica",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "JP",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "json-server": "^1.0.0-alpha.23"
+  }
+}

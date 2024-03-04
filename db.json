@@ -1,0 +1,66 @@
+{
+    "profesores":[
+        {
+            "nombre": "Sergie",
+            "apellido": "Code",
+            "materias":[
+                {
+                    "nombre": "NodeJS"
+                    
+                },
+                {
+                    "nombre": "Node desde 0"
+                },
+                {
+                    "nombre": "JS"
+                }
+            ]
+        },
+        {
+            "nombre": "Juan",
+            "apellido":"Perez" ,
+            "materias":[
+                {
+                    "nombre":"Docker desde 0"
+                },
+                {
+                    "nombre":"Ruby On Railways"
+                }
+            ]
+        }
+    ],
+    "alumnos":[
+        {
+            "nombre": "Maria",
+            "apellido": "Perez",
+            "promedio": 8.5
+        },
+        {
+            "nombre": "Juan",
+            "apellido":"Morales",
+            "promedio": 9.2
+        },
+        {
+            "nombre": "Camila",
+            "apellido": "Montalbano",
+            "promedio": 7.4
+        }
+    ],
+    "cursos":[
+        {
+            "nombre": "Node desde 0",
+            "duracion": 7,
+            "dificultad": "intermedia"
+        },
+        {
+            "nombre": "React desde 0",
+            "duracion": 5.3,
+            "dificultad": "intermedia"
+        },
+        {
+            "nombre": "JS",
+            "duracion": 8.2,
+            "dificultad": "intermedia"
+        }
+    ]
+}
