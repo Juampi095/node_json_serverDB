@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Proyecto de practica",
   "main": "src/index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "json-server --watch db.json",
-    "dev": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "dev": "nodemon src/app.js"
   },
   "author": "JP",
   "license": "ISC",
@@ -16,6 +16,7 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "env-var": "^7.4.1",
+    "express": "^4.18.3",
     "json-server": "^1.0.0-alpha.23"
   }
 }
