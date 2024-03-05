@@ -1,16 +1,12 @@
-import { envs } from './config/env.js';
-import { startServer } from './server/server.js'; //EN ES6 Siempre van las extensiones de los archivos cuando importamos
+import { config } from "dotenv";
+import express from "express";
 
+config()
 
-const main = () => {
-startServer({
-    port: envs.PORT,
-    public_path: envs.PUBLIC_PATH
+const app = express();
+
+const port = process.env.PORT || 3000
+
+app.listen(port,()=>{
+    console.log(`Listening on ${port}`)
 })
-}
-
-//Funcion agnostica autoconvocada(no tiene nombre y se ejecuta con los ultimos parentesis)
-( async () => {
-    main()
-})()
-
